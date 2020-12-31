@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+
+[packages]
+numpy = "*"
+opencv-contrib-python-headless = "*"
+pillow = "*"
+python-pipeliner = "*"
+"pdfminer.six" = "*"
+pymupdf = "*"
+
+[requires]
+python_version = "3.8"
